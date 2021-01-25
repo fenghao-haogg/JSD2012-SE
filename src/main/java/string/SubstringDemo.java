@@ -14,8 +14,14 @@ public class SubstringDemo {
         String sub = host.substring(4,8);
         System.out.println(sub);
 
+        String b =host.substring(5,8);
+        System.out.println(b);
+
         //重载的substring传入一个参数为:从指定位置截取到字符串末尾
         sub = host.substring(4);
         System.out.println(sub);
+
+        b= host.substring(5);
+        System.out.println(b);
     }
 }

@@ -9,15 +9,37 @@ import javax.imageio.stream.ImageInputStream;
  */
 public class ValueOfDemo {
     public static void main(String[] args) {
-        int i = 123;
-        String str = String.valueOf(i);
-        System.out.println(str);
+//        int i = 123;
+//        String str = String.valueOf(i);
+//        System.out.println(str);
+//
+//        double dou = 123.123;
+//        String str2 = String.valueOf(dou);
+//        System.out.println(str2);
+//
+//        String s3 = i + ""; //任何内容与字符串连接结果都是字符串
+//        System.out.println(s3);
 
-        double dou = 123.123;
-        String str2 = String.valueOf(dou);
-        System.out.println(str2);
 
-        String s3 = i + ""; //任何内容与字符串连接结果都是字符串
-        System.out.println(s3);
+
+
+
+
+
+        int a = 456;
+        String str = String.valueOf(a);
+        System.out.println(a);
+
+        double b = 456.789;
+        String str1 = String.valueOf(b);
+        System.out.println(b);
+
+        String d = b+"";
+        System.out.println(d);
+
+
+
+
+
     }
 }

@@ -23,7 +23,7 @@ public class StringDemo {
         //比较字符串内容要用equals
         System.out.println(s2.equals(s3));
 
-        s1 = s1+"!";        //y由于字符串是不变对象，修改内容就会创建新的对象
+        s1 = s1+"!";        //由于字符串是不变对象，修改内容就会创建新的对象
         System.out.println("s1"+s1);  //s1内容发生改变
         System.out.println("s2"+s2);  //s2内容不发生改变
         System.out.println(s1==s2);      //此时s1与s2不再是指向同一个对象
