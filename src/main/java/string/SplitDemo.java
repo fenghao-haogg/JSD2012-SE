@@ -9,6 +9,7 @@ package string;
 
 public class SplitDemo {
     public static void main(String[] args) {
+                    //0123456789
         String str = "abc123def456ghj789imn";
 
         //按照数字部分拆分
